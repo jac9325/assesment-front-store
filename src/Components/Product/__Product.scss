@@ -1,0 +1,39 @@
+.contenedor {
+  margin-top: 50px;
+  border: solid 2px #c4c4c4;
+  border-radius: 10px;
+  width: 350px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  img {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+  }
+
+  &__title {
+    height: 50px;
+    font-weight: bold;
+    margin: 10px;
+  }
+
+  &__datos {
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+
+    &--time {
+      font-weight: bold;
+    }
+
+    &--detalle {
+      background: #007bff;
+      padding: 10px;
+      border-radius: 10px;
+      color: white;
+    }
+  }
+}

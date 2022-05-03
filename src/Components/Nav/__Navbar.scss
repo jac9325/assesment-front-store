@@ -1,0 +1,21 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+}
+.link {
+  font-size: 1.5em;
+  margin-left: 25px;
+  color: rgb(255, 96, 4);
+  font-weight: 600;
+  &:hover {
+    color: rgb(61, 5, 5);
+    text-decoration: underline;
+  }
+  &:active {
+    color: rgb(61, 5, 5);
+    text-decoration: underline;
+  }
+}
