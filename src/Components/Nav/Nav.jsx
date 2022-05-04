@@ -5,12 +5,12 @@ import './__Navbar.scss';
 function Nav() {
   return (
     <header>
-      <nav classNme="navbar">
+      <nav className="navbar">
         <Link to="/" style={{ textDecoration: 'none' }}>
-          <p class="link">Home</p>
+          <p className="link">Home</p>
         </Link>
         <Link to="/about" style={{ textDecoration: 'none' }}>
-          <p class="link">About</p>
+          <p className="link">About</p>
         </Link>
       </nav>
     </header>

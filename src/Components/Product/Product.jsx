@@ -23,10 +23,10 @@ const Product = ({ id, title, image }) => {
         <img className="imagen" src={image}></img>
       </div>
       <div className="contenedor__title">{title}</div>
-      <div class="contenedor__datos">
-        <p class="contenedor__datos--time">{numeroAleatorio}</p>
+      <div className="contenedor__datos">
+        <p className="contenedor__datos--time">{numeroAleatorio}</p>
         <Link to={value}>
-          <p class="contenedor__datos--detalle">
+          <p className="contenedor__datos--detalle">
             <b> Ver detalle</b>
           </p>
         </Link>

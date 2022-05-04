@@ -20,7 +20,7 @@ function Home() {
   return (
     <div className="container">
       {productos.map(({ id, title, image, time }) => (
-        <Product id={id} title={title} image={image} time={1} />
+        <Product id={id} title={title} image={image} time={1} key={id} />
       ))}
     </div>
   );
